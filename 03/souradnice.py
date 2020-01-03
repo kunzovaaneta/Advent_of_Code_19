@@ -38,7 +38,7 @@ def seznam_pohybu(A):
 seznam_pohybu_A = seznam_pohybu(pohyby_A)
 seznam_pohybu_B = seznam_pohybu(pohyby_B)
 
-prunik= seznam_pohybu_A&seznam_pohybu_B
+prunik = seznam_pohybu_A&seznam_pohybu_B
 #print(prunik)
 
 min_vzdalenost = min([abs(x) + abs(y) for (x,y) in prunik])
